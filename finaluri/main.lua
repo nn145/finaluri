@@ -25,8 +25,8 @@ function love.load()
     sounds = {
 		['hit'] = love.audio.newSource('game_over.wav', 'static'),
 		['score'] = love.audio.newSource('pick_up.wav', 'static'),
-        ['main'] = love.audio.newSource('marios_theme.wav', 'static'),
-        ['game_over'] = love.audio.newSource('dd.wav', 'static')
+        	['main'] = love.audio.newSource('marios_theme.wav', 'static'),
+        	['game_over'] = love.audio.newSource('dd.wav', 'static')
     }
     
     love.graphics.setDefaultFilter('nearest', 'nearest')
